@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.joeCashLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // joeCashLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.joeCashLabel.AutoSize = true;
+            this.joeCashLabel.Location = new System.Drawing.Point(13, 13);
+            this.joeCashLabel.Name = "joeCashLabel";
+            this.joeCashLabel.Size = new System.Drawing.Size(35, 13);
+            this.joeCashLabel.TabIndex = 0;
+            this.joeCashLabel.Text = "label1";
             // 
             // label2
             // 
@@ -67,7 +67,7 @@
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.joeCashLabel);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -77,7 +77,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label joeCashLabel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
     }
